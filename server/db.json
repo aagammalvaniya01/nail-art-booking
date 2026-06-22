@@ -1,0 +1,291 @@
+{
+  "users": [
+    {
+      "_id": "domw5aqvfmpmbdz0z",
+      "username": "AuraAdmin",
+      "email": "admin@auranails.com",
+      "password": "$2a$10$VtpCjGomNg/vruYAm2NNc.UH53jldcEmUkIep3ocnF9NGjPIcgzb2",
+      "role": "Admin",
+      "name": "AuraAdmin",
+      "createdAt": "2026-05-26T07:29:12.083Z",
+      "updatedAt": "2026-05-26T07:29:12.083Z"
+    },
+    {
+      "_id": "superadmin123456789",
+      "username": "AuraSuperAdmin",
+      "email": "superadmin@auranails.com",
+      "password": "$2a$10$eiwGIT/UF9oli0FrNOzvne1jSSVYxIBs2I6.I6SOBsF4T75awkjrW",
+      "role": "Super Admin",
+      "name": "AuraSuperAdmin",
+      "createdAt": "2026-05-26T07:29:12.083Z",
+      "updatedAt": "2026-05-26T07:29:12.083Z"
+    },
+    {
+      "_id": "staff123456789",
+      "username": "AuraStaff",
+      "email": "staff@auranails.com",
+      "password": "$2a$10$Lgwb7FpGejYn3nsExofeL.hKI0zpQE0HLG1JXXiZjP.6cf7QXFqt2",
+      "role": "Staff",
+      "name": "AuraStaff",
+      "createdAt": "2026-05-26T07:29:12.083Z",
+      "updatedAt": "2026-05-26T07:29:12.083Z"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "booking11111111111",
+      "name": "Sarah Connor",
+      "phone": "555-0199",
+      "email": "sarah@connor.com",
+      "service": "Basic Gel Overlay",
+      "date": "2026-06-01",
+      "slot": "10:00 AM",
+      "status": "Confirmed",
+      "message": "Prefer soft pink gel overlays.",
+      "createdAt": "2026-05-26T07:35:00.000Z",
+      "updatedAt": "2026-05-26T07:35:00.000Z"
+    },
+    {
+      "_id": "booking22222222222",
+      "name": "John Doe",
+      "phone": "555-0122",
+      "email": "john@doe.com",
+      "service": "Premium Artistic Custom",
+      "date": "2026-06-02",
+      "slot": "12:00 PM",
+      "status": "Pending",
+      "message": "Want celestial chrome designs.",
+      "createdAt": "2026-05-26T07:40:00.000Z",
+      "updatedAt": "2026-05-26T07:40:00.000Z"
+    },
+    {
+      "_id": "booking33333333333",
+      "name": "Emily Watson",
+      "phone": "555-0143",
+      "email": "emily@watson.com",
+      "service": "Luxury Bridal Set",
+      "date": "2026-06-03",
+      "slot": "02:00 PM",
+      "status": "Completed",
+      "message": "Wedding set with pearls.",
+      "createdAt": "2026-05-25T10:00:00.000Z",
+      "updatedAt": "2026-05-26T08:00:00.000Z"
+    },
+    {
+      "_id": "booking44444444444",
+      "name": "Michael Scott",
+      "phone": "555-0188",
+      "email": "michael@dundermifflin.com",
+      "service": "Basic Gel Overlay",
+      "date": "2026-06-04",
+      "slot": "04:30 PM",
+      "status": "Cancelled",
+      "message": "Cannot make it due to a meeting.",
+      "createdAt": "2026-05-26T08:15:00.000Z",
+      "updatedAt": "2026-05-26T08:15:00.000Z"
+    },
+    {
+      "_id": "booking55555555555",
+      "name": "Pam Beesly",
+      "phone": "555-0155",
+      "email": "pam@dundermifflin.com",
+      "service": "Gel Polish Master",
+      "date": "2026-06-05",
+      "slot": "11:00 AM",
+      "status": "Completed",
+      "message": "Looking for elegant Russian manicure prep.",
+      "createdAt": "2026-05-24T09:00:00.000Z",
+      "updatedAt": "2026-05-25T12:00:00.000Z"
+    },
+    {
+      "_id": "booking66666666666",
+      "name": "Angela Martin",
+      "phone": "555-0166",
+      "email": "angela@dundermifflin.com",
+      "service": "Gel Polish Master",
+      "date": "2026-06-06",
+      "slot": "01:00 PM",
+      "status": "Confirmed",
+      "message": "Extremely neat shaping, please.",
+      "createdAt": "2026-05-26T08:30:00.000Z",
+      "updatedAt": "2026-05-26T08:30:00.000Z"
+    }
+  ],
+  "gallery": [
+    {
+      "_id": "04fgxl0j7mpmbdz1g",
+      "title": "Classic Blush Gel",
+      "description": "Sleek, minimalist solid blush pink gel overlay. Perfect for everyday elegance.",
+      "price": 1200,
+      "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=600&auto=format&fit=crop",
+      "category": "Gel",
+      "createdAt": "2026-05-26T07:29:12.100Z",
+      "updatedAt": "2026-05-26T07:29:12.100Z"
+    },
+    {
+      "_id": "i7g19bg6gmpmbdz1y",
+      "title": "Emerald Luxury Chrome",
+      "description": "Deep forest green shellac with reflective gold-metallic chrome dust.",
+      "price": 1800,
+      "image": "https://images.unsplash.com/photo-1610992015732-2449b76344cc?q=80&w=600&auto=format&fit=crop",
+      "category": "Acrylic",
+      "createdAt": "2026-05-26T07:29:12.119Z",
+      "updatedAt": "2026-05-26T07:29:12.119Z"
+    },
+    {
+      "_id": "xj3a4kdi7mpmbdz2g",
+      "title": "Wedding Grace Accent",
+      "description": "Semi-sheer nude base featuring hand-painted floral lace and micro pearls.",
+      "price": 3000,
+      "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=600&auto=format&fit=crop",
+      "category": "Bridal",
+      "createdAt": "2026-05-26T07:29:12.136Z",
+      "updatedAt": "2026-05-26T07:29:12.136Z"
+    },
+    {
+      "_id": "9r3bu20lqmpmbdz2w",
+      "title": "Celestial Gold Moon",
+      "description": "Matte dark indigo background with elegant hand-painted golden stars and moon phase details.",
+      "price": 2200,
+      "image": "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?q=80&w=600&auto=format&fit=crop",
+      "category": "Custom",
+      "createdAt": "2026-05-26T07:29:12.152Z",
+      "updatedAt": "2026-05-26T07:29:12.152Z"
+    },
+    {
+      "_id": "4kchxtzthmpmbdz3h",
+      "title": "Velvet Ruby Ombre",
+      "description": "Rich dark red transitioning to soft crimson with velvet shimmer texture.",
+      "price": 1600,
+      "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=600&auto=format&fit=crop",
+      "category": "Classic",
+      "createdAt": "2026-05-26T07:29:12.173Z",
+      "updatedAt": "2026-05-26T07:29:12.173Z"
+    }
+  ],
+  "videos": [
+    {
+      "_id": "dtlpq4px8mpmbdz6m",
+      "title": "Summer Florals hand-painted tutorial",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=600&auto=format&fit=crop",
+      "createdAt": "2026-05-26T07:29:12.286Z",
+      "updatedAt": "2026-05-26T07:29:12.286Z"
+    },
+    {
+      "_id": "jfijqqii1mpmbdz7b",
+      "title": "Applying Perfect Velvet Cat-eye Polish",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://images.unsplash.com/photo-1632345031435-8797b2d58045?q=80&w=600&auto=format&fit=crop",
+      "createdAt": "2026-05-26T07:29:12.311Z",
+      "updatedAt": "2026-05-26T07:29:12.311Z"
+    }
+  ],
+  "testimonials": [
+    {
+      "_id": "nyrddf7y4mpmbdz7z",
+      "name": "Sophie Vance",
+      "review": "Absolutely loved the custom celestial gold nail art! The details were hand-painted to absolute perfection and the polish lasted for 4 weeks without chipping.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=150&auto=format&fit=crop",
+      "createdAt": "2026-05-26T07:29:12.335Z",
+      "updatedAt": "2026-05-26T07:29:12.335Z"
+    },
+    {
+      "_id": "sw50dwn2vmpmbdz8q",
+      "name": "Jessica Miller",
+      "review": "The Russian manicure prep is incredible. My cuticles have never looked so clean and healthy. The salon ambiance feels very premium and luxurious!",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop",
+      "createdAt": "2026-05-26T07:29:12.362Z",
+      "updatedAt": "2026-05-26T07:29:12.362Z"
+    },
+    {
+      "_id": "3tqx8w3l4mpmbdzbe",
+      "name": "Gabriella Thorne",
+      "review": "I booked the Luxury Bridal Set for my wedding and it was the best decision. The crystals stayed glued through the entire honeymoon and I received countless compliments.",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=150&auto=format&fit=crop",
+      "createdAt": "2026-05-26T07:29:12.458Z",
+      "updatedAt": "2026-05-26T07:29:12.458Z"
+    }
+  ],
+  "pricing": [
+    {
+      "_id": "e2itll7ldmpmbdz45",
+      "serviceName": "Basic Gel Overlay",
+      "price": 1200,
+      "features": [
+        "Gentle cuticle care and nail shaping",
+        "Single tone premium gel polish",
+        "UV-cured top coat sealer",
+        "Nourishing almond oil massage"
+      ],
+      "description": "An elegant, long-lasting solid gel overlay that provides natural strength and high gloss finish.",
+      "category": "Basic",
+      "createdAt": "2026-05-26T07:29:12.197Z",
+      "updatedAt": "2026-05-26T07:29:12.197Z"
+    },
+    {
+      "_id": "yi3jqyvllmpmbdz4s",
+      "serviceName": "Gel Polish Master",
+      "price": 1800,
+      "features": [
+        "Medical-grade Russian manicure cuticle prep",
+        "Premium double gel coating",
+        "Up to 2 custom accent nails (foils, glitter, stickers)",
+        "Hydrating organic hand scrub"
+      ],
+      "description": "For nail lovers seeking premium care combined with subtle accent designs. Lasts up to 4 weeks.",
+      "category": "Premium",
+      "createdAt": "2026-05-26T07:29:12.220Z",
+      "updatedAt": "2026-05-26T07:29:12.220Z"
+    },
+    {
+      "_id": "ffih08y2umpmbdz5e",
+      "serviceName": "Luxury Bridal Set",
+      "price": 3500,
+      "features": [
+        "Full-set tips or hard builder gel extension",
+        "Bespoke bridal styling session",
+        "Genuine Swarovski crystals and pearl details",
+        "Paraffin wax hand treatment"
+      ],
+      "description": "The ultimate nail transformation package for your special wedding day. Styled custom to match your gown.",
+      "category": "Bridal",
+      "createdAt": "2026-05-26T07:29:12.242Z",
+      "updatedAt": "2026-05-26T07:29:12.242Z"
+    },
+    {
+      "_id": "v0sji1nm1mpmbdz61",
+      "serviceName": "Premium Artistic Custom",
+      "price": 2800,
+      "features": [
+        "Full builder gel or gel-x extension",
+        "Unlimited custom hand-painted art",
+        "Specialty chrome, magnetic velvet, or cat-eye effects",
+        "Reinforcing structural top layer"
+      ],
+      "description": "Turn your nails into a canvas. Bring any concept and let our expert nail artists paint it to perfection.",
+      "category": "Custom",
+      "createdAt": "2026-05-26T07:29:12.265Z",
+      "updatedAt": "2026-05-26T07:29:12.265Z"
+    }
+  ],
+  "about": [
+    {
+      "_id": "76q7ywulnmpmbdzc4",
+      "salonIntro": "Welcome to Aura Nails, a premium nail artistry studio where creativity meets luxury. We believe nail styling is more than just maintenance—it is a form of self-expression and personal styling. Our studio blends high-quality ingredients with cutting-edge artistry to deliver stunning, personalized results.",
+      "mission": "To deliver client-focused luxury nail treatments that prioritize safety, hygiene, and creativity. We use only premium non-toxic, vegan polishes and builder gels to keep your natural nails healthy and beautiful.",
+      "experienceYears": 8,
+      "whyChooseUs": [
+        "Certified Nail Technicians with over 15 combined years of art experience",
+        "9-Free, Vegan, and Cruelty-Free products only",
+        "100% Autoclave-Sterilized tools & hygienic, relaxing studio environment",
+        "Completely customizable hand-painted art, chrome, and embellishments"
+      ],
+      "createdAt": "2026-05-26T07:29:12.484Z",
+      "updatedAt": "2026-05-26T07:29:12.484Z"
+    }
+  ]
+}

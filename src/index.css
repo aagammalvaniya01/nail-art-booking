@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Outfit', 'Inter', sans-serif;
+  }
+  
+  body {
+    @apply bg-onyx text-cream min-h-screen overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  /* Custom Elegant Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-onyx-dark;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gold/30 rounded-full hover:bg-gold/60 transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .glass-header {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(197, 168, 128, 0.15);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(197, 168, 128, 0.15);
+  }
+
+  .glass-modal {
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(197, 168, 128, 0.2);
+  }
+
+  .premium-input {
+    @apply bg-onyx-dark border border-gold/20 rounded-md py-3 px-4 text-cream placeholder-cream/45 focus:outline-none focus:border-rosegold focus:ring-1 focus:ring-rosegold/30 transition-all duration-300 w-full;
+  }
+
+  .gold-btn {
+    @apply relative overflow-hidden bg-gold text-neutral-900 font-semibold px-6 py-3 rounded-md transition-all duration-500 hover:shadow-gold-glow hover:bg-gold-light tracking-wide cursor-pointer;
+  }
+
+  .gold-outline-btn {
+    @apply border border-gold text-gold font-medium px-6 py-3 rounded-md transition-all duration-500 hover:bg-gold/10 hover:text-gold hover:shadow-gold-glow tracking-wide cursor-pointer;
+  }
+
+  .rosegold-btn {
+    @apply bg-rosegold text-white font-semibold px-6 py-3 rounded-md transition-all duration-300 hover:bg-rosegold-dark hover:shadow-lg cursor-pointer;
+  }
+}
+
+/* Micro-animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 0.35; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 8s ease-in-out infinite;
+}
+
+/* Hide arrow for input number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
